@@ -41,10 +41,10 @@ onMounted(() => {
                   <h4
                     class="text-white font-weight-bolder text-center mt-2 mb-0"
                   >
-                    Sign in
+                    Se connecter
                   </h4>
                   <div class="row mt-3">
-                    <div class="col-2 text-center ms-auto">
+                    <!-- <div class="col-2 text-center ms-auto">
                       <a class="btn btn-link px-3" href="javascript:;">
                         <i class="fa fa-facebook text-white text-lg"></i>
                       </a>
@@ -58,7 +58,7 @@ onMounted(() => {
                       <a class="btn btn-link px-3" href="javascript:;">
                         <i class="fa fa-google text-white text-lg"></i>
                       </a>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ onMounted(() => {
                     id="rememberMe"
                     labelClass="mb-0 ms-3"
                     checked
-                    >Remember me</MaterialSwitch
+                    >Se souvenir de moi</MaterialSwitch
                   >
 
                   <div class="text-center">
@@ -90,15 +90,15 @@ onMounted(() => {
                       variant="gradient"
                       color="success"
                       fullWidth
-                      >Sign in</MaterialButton
+                      >Connecter</MaterialButton
                     >
                   </div>
                   <p class="mt-4 text-sm text-center">
-                    Don't have an account?
+                    Vous n'avez pas de compte?
                     <a
                       href="#"
                       class="text-success text-gradient font-weight-bold"
-                      >Sign up</a
+                      >S'inscrire</a
                     >
                   </p>
                 </form>
@@ -114,15 +114,14 @@ onMounted(() => {
               <div
                 class="copyright text-center text-sm text-white text-lg-start"
               >
-                © {{ new Date().getFullYear() }}, made with
-                <i class="fa fa-heart" aria-hidden="true"></i> by
+                © {{ new Date().getFullYear() }},
                 <a
-                  href="https://www.creative-tim.com"
+                  href=""
                   class="font-weight-bold text-white"
                   target="_blank"
-                  >Creative Tim</a
+                  >Lebonomar</a
                 >
-                for a better web.
+                Tout droit reservé
               </div>
             </div>
             <div class="col-12 col-md-6">
@@ -131,34 +130,26 @@ onMounted(() => {
               >
                 <li class="nav-item">
                   <a
-                    href="https://www.creative-tim.com"
+                    href=""
                     class="nav-link text-white"
                     target="_blank"
-                    >Creative Tim</a
+                    >Accueil</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    href="https://www.creative-tim.com/presentation"
+                    href=""
                     class="nav-link text-white"
                     target="_blank"
-                    >About Us</a
+                    >Apropos</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    href="https://www.creative-tim.com/blog"
+                    href=""
                     class="nav-link text-white"
                     target="_blank"
-                    >Blog</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="https://www.creative-tim.com/license"
-                    class="nav-link pe-0 text-white"
-                    target="_blank"
-                    >License</a
+                    >Nous contacter</a
                   >
                 </li>
               </ul>

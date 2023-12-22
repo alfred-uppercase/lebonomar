@@ -52,16 +52,16 @@ import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultC
       <div class="row justify-content-center text-center">
         <div class="col-md-3">
           <DefaultCounterCard
-            title="Projects"
-            description="Of “high-performing” level are led by a certified project manager"
-            :count="5234"
+            title="Annonces Vehicules"
+            description=""
+            :count="234"
             :duration="3000"
           />
         </div>
         <div class="col-md-3">
           <DefaultCounterCard
-            title="Hours"
-            description="That meets quality standards required by our users"
+            title="Hotels"
+            description=""
             :count="3400"
             suffix="+"
             :duration="3000"
@@ -69,10 +69,10 @@ import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultC
         </div>
         <div class="col-md-3">
           <DefaultCounterCard
-            title="Support"
-            description="Actively engage team members that finishes on time"
-            :count="24"
-            suffix="/7"
+            title="Appartement vendu"
+            description=""
+            :count="2400"
+            suffix=""
             :duration="4000"
           />
         </div>

@@ -15,9 +15,9 @@ const props = defineProps({
     color: String,
     label: String,
     default: () => ({
-      route: "https://www.creative-tim.com/product/vue-material-kit",
+      route: "",
       color: "bg-gradient-success",
-      label: "Free Download"
+      label: "Déposer une annonce"
     })
   },
   transparent: {
@@ -200,20 +200,21 @@ watch(
                       >
                         Ventes immobilières
                       </div>
+                      
                       <RouterLink
-                        :to="{ name: 'about' }"
+                        :to="{ name: 'signin-basic' }"
                         class="dropdown-item border-radius-md"
                       >
                         <span>Appartement</span>
                       </RouterLink>
                       <RouterLink
-                        :to="{ name: 'contactus' }"
+                        :to="{ name: 'signin-basic' }"
                         class="dropdown-item border-radius-md"
                       >
                         <span>Maison</span>
                       </RouterLink>
                       <RouterLink
-                        :to="{ name: 'author' }"
+                        :to="{ name: 'signin-basic' }"
                         class="dropdown-item border-radius-md"
                       >
                         <span>Terrain</span>
@@ -258,19 +259,19 @@ watch(
                   Appartement
                 </div>
                 <RouterLink
-                  :to="{ name: 'about' }"
+                  :to="{ name: 'signin-basic' }"
                   class="dropdown-item border-radius-md"
                 >
                   <span>About Us</span>
                 </RouterLink>
                 <RouterLink
-                  :to="{ name: 'contactus' }"
+                  :to="{ name: 'signin-basic' }"
                   class="dropdown-item border-radius-md"
                 >
                   <span>Contact Us</span>
                 </RouterLink>
                 <RouterLink
-                  :to="{ name: 'author' }"
+                  :to="{ name: 'signin-basic' }"
                   class="dropdown-item border-radius-md"
                 >
                   <span>Author</span>
@@ -351,13 +352,13 @@ watch(
                     <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'page-headers' }"
+                        :to="{ name: 'signin-basic' }"
                       >
                         Peugeot
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'page-features' }"
+                        :to="{ name: 'signin-basic' }"
                       >
                         Renault
                       </RouterLink>
@@ -393,19 +394,19 @@ watch(
                     <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'navigation-navbars' }"
+                        :to="{ name: 'signin-basic' }"
                       >
                         Yamaha
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'navigation-navtabs' }"
+                        :to="{ name: 'signin-basic' }"
                       >
                         BMW
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'navigation-pagination' }"
+                        :to="{ name: 'signin-basic' }"
                       >
                         BWS
                       </RouterLink>
@@ -441,19 +442,19 @@ watch(
                     <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'inputareas-inputs' }"
+                        :to="{ name: 'signin-basic' }"
                       >
                         Equipement moto
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'inputareas-forms' }"
+                        :to="{ name: 'signin-basic' }"
                       >
                         Equipement voiture
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'inputareas-forms' }"
+                        :to="{ name: 'signin-basic' }"
                       >
                         Equipement tracteur
                       </RouterLink>
@@ -478,13 +479,13 @@ watch(
                   </div>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'page-headers' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Locations saisonnières
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'page-features' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Features
                   </RouterLink>
@@ -503,19 +504,19 @@ watch(
                   </div>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'navigation-navbars' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Navbars
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'navigation-navtabs' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Nav Tabs
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'navigation-pagination' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Pagination
                   </RouterLink>
@@ -534,13 +535,13 @@ watch(
                   </div>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'inputareas-inputs' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Inputs
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'inputareas-forms' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Forms
                   </RouterLink>
@@ -559,19 +560,19 @@ watch(
                   </div>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'ac-alerts' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Alerts
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'ac-modals' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Modals
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'ac-tooltips-popovers' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Tooltips & Popovers
                   </RouterLink>
@@ -590,55 +591,55 @@ watch(
                   </div>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'el-avatars' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Avatars
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'el-badges' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Badges
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'el-breadcrumbs' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Breadcrumbs
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'el-buttons' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Buttons
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'el-button-groups' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Button Groups
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'el-dropdowns' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Dropdowns
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'el-progress-bars' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Progress Bars
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'el-toggles' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Toggles
                   </RouterLink>
                   <RouterLink
                     class="dropdown-item ps-3 border-radius-md mb-1"
-                    :to="{ name: 'el-typography' }"
+                    :to="{ name: 'signin-basic' }"
                   >
                     Typography
                   </RouterLink>
@@ -923,20 +924,7 @@ watch(
              <RouterLink
             :to="{ name: 'signin-basic' }"
             class="dropdown-item border-radius-md nav-link d-flex cursor-pointer align-items-center">
-             
-              <svg
-                width="20px"
-                height="20px"
-                class="material-icons me-2 opacity-6"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-                data-testid="GitHubIcon"
-                :fill="props.transparent && '#fff'"
-              >
-                <path
-                  d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
-                ></path>
-              </svg>
+            <svg :fill="props.transparent && '#fff'" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
               <span>Se Connecter</span>
              </RouterLink>
           </li>
@@ -957,3 +945,10 @@ watch(
   </nav>
   <!-- End Navbar -->
 </template>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.navbar .navbar-brand{
+  font-size: 58px!important;
+  font-family: 'Dancing Script', cursive;
+}
+</style>

@@ -7,7 +7,7 @@ defineProps({
     logo: String,
     route: "",
     default: () => ({
-      name: "Material Kit 2",
+      name: "Lebonomar",
       logo: logoDark,
       route: "/"
     })
@@ -19,23 +19,23 @@ defineProps({
     default: () => [
       {
         icon: '<i class="fab fa-facebook text-lg opacity-8"></i>',
-        link: "https://www.facebook.com/CreativeTim/"
+        link: ""
       },
       {
         icon: '<i class="fab fa-twitter text-lg opacity-8"></i>',
-        link: "https://twitter.com/creativetim"
+        link: ""
       },
       {
         icon: '<i class="fab fa-dribbble text-lg opacity-8"></i>',
-        link: "https://dribbble.com/creativetim"
+        link: ""
       },
       {
         icon: '<i class="fab fa-github text-lg opacity-8"></i>',
-        link: "https://github.com/creativetimofficial"
+        link: ""
       },
       {
         icon: '<i class="fab fa-youtube text-lg opacity-8"></i>',
-        link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w"
+        link: ""
       }
     ]
   },
@@ -49,72 +49,72 @@ defineProps({
     },
     default: () => [
       {
-        name: "company",
+        name: "Immobilier",
         items: [
           {
-            name: "about us",
-            href: "https://www.creative-tim.com/presentation"
+            name: "Appartement",
+            href: ""
           },
           {
-            name: "freebies",
-            href: "https://www.creative-tim.com/templates/free"
+            name: "Hotel",
+            href: ""
           },
           {
-            name: "premium tools",
-            href: "https://www.creative-tim.com/templates/premium"
+            name: "Maisons",
+            href: ""
           },
-          { name: "blog", href: "https://www.creative-tim.com/blog" }
+          { name: "Location", href: "" }
         ]
       },
       {
-        name: "resources",
+        name: "Carrière",
         items: [
-          { name: "illustrations", href: "https://iradesign.io/" },
+          { name: "Offre d'emploi", href: "" },
           {
-            name: "bits & snippets",
-            href: "https://www.creative-tim.com/bits"
+            name: "CDI & CDD",
+            href: ""
           },
           {
-            name: "affiliate program",
-            href: "https://www.creative-tim.com/affiliates/new"
+            name: "Freelance",
+            href: ""
           }
         ]
       },
       {
-        name: "help & support",
+        name: "Véhicules",
         items: [
           {
-            name: "contact us",
-            href: "https://www.creative-tim.com/contact-us"
+            name: "Voiture",
+            href: ""
           },
           {
-            name: "knowledge center",
-            href: "https://www.creative-tim.com/knowledge-center"
+            name: "Moto",
+            href: ""
           },
           {
-            name: "custom development",
-            href: "https://services.creative-tim.com/"
+            name: "Pièces occasions",
+            href: ""
           },
           {
-            name: "sponsorships",
-            href: "https://www.creative-tim.com/sponsorships"
+            name: "Vendre ma voiture",
+            href: ""
           }
         ]
       },
       {
-        name: "legal",
+        name: "Apropos",
         items: [
           {
-            name: "terms & conditions",
-            href: "https://www.creative-tim.com/terms"
+            name: "Apropos de nous",
+            href: ""
           },
           {
-            name: "privacy policy",
-            href: "https://www.creative-tim.com/privacy"
+            name: "Termes et Conditions",
+            href: ""
           },
           {
-            name: "licenses (EULA)",
-            href: "https://www.creative-tim.com/license"
+            name: "Nous contacter",
+            href: ""
           }
         ]
       }
@@ -169,11 +169,11 @@ defineProps({
         <div class="col-12">
           <div class="text-center">
             <p class="text-dark my-4 text-sm font-weight-normal">
-              All rights reserved. Copyright ©
+              Tout droit réservé ©
               {{ new Date().getFullYear() }}
-              Material Kit by
-              <a href="https://www.creative-tim.com" target="_blank"
-                >Creative Tim</a
+              Lebonomar
+              <a href="" target="_blank"
+                ></a
               >.
             </p>
           </div>
